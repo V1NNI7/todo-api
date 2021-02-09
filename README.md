@@ -28,7 +28,7 @@ Diretórios:
 Comandos Sequelize-cli:
 
 ```
-$ npx sequelize-cli model:generate --name=Tafera --attributes name:string,desc:string,status:boolean,dataDeConclusao:date,prioridade:string
+$ npx sequelize-cli model:generate --name=Tarefa --attributes name:string,desc:string,status:boolean,dataDeConclusao:date,prioridade:string
 
 $ npx sequelize-cli db:migrate
 ```
